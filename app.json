@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Banco Inter",
+    "slug": "inter-clone",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "androidNavigationBar": {
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.develians.interclone",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "expo.ts",
+        "expo.tsx",
+        "expo.js",
+        "expo.jsx",
+        "ts",
+        "tsx",
+        "js",
+        "jsx",
+        "json",
+        "wasm",
+        "svg"
+      ]
+    }
+  }
+}
